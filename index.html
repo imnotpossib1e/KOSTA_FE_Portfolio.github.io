@@ -1,12 +1,256 @@
 <!doctype html>
-<html lang="ko-KR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <a href="./todo_list/index.html">todolist</a>
-    <a href="./fruits_shop_temp/index.html">fruits</a>
+
+<html>
+  <title>W3.CSS CV Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .cv-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 601px) {
+      .cv-grid {
+        grid-template-columns: 1fr 2fr;
+      }
+    }
+  </style>
+
+  <body class="w3-light-grey">
+    <!-- Page Container -->
+
+    <main class="w3-content w3-margin-top" style="max-width: 1400px">
+      <!-- Grid -->
+
+      <div class="cv-grid w3-padding">
+        <!-- Left Column -->
+
+        <div>
+          <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-display-container">
+              <img src="/img/profile.jpeg" style="width: 100%" alt="이진현" />
+
+              <div class="w3-display-bottomleft w3-container w3-text-black">
+                <h2>이진현</h2>
+              </div>
+            </div>
+
+            <div class="w3-container">
+              <p>
+                <i
+                  class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i>
+                풀스택 개발자
+              </p>
+
+              <p>
+                <i
+                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i>
+                경기 성남시
+              </p>
+
+              <p>
+                <i
+                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i>
+                jhyunlee62@naver.com
+              </p>
+
+              <p>
+                <i
+                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i>
+                010-9781-1526
+              </p>
+
+              <hr />
+
+              <p class="w3-large">
+                <b>
+                  <i
+                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"
+                  ></i>
+                  Skills
+                </b>
+              </p>
+
+              <p>JAVA</p>
+
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 60%"
+                >
+                  60%
+                </div>
+              </div>
+
+              <p>React</p>
+
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 60%"
+                >
+                  60%
+                </div>
+              </div>
+
+              <p>JavaScript</p>
+
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 60%"
+                >
+                  60%
+                </div>
+              </div>
+
+              <p>HTML & CSS</p>
+
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 60%"
+                >
+                  60%
+                </div>
+              </div>
+
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+
+        <div>
+          <!-- Work Experience -->
+
+          <section class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+              ></i>
+              Work Experience
+            </h2>
+
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>샤이닝라이언 - 인턴 / 프론트엔드</b>
+              </h5>
+
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>
+                2026.02 - 2026.02
+              </h6>
+
+              <p>AI 기술 블로그 글 생성 플랫폼 제작</p>
+
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>My Project</b>
+              </h5>
+              <ul>
+                <li><a href="./todo_list/index.html">Todo List</a></li>
+                <li><a href="./kosta_bank/index.html">KOSTA Bank</a></li>
+                <li><a href="./movie/index.html">Movie</a></li>
+                <li><a href="./fruits_shop_temp/index.html">Fruit Shop</a></li>
+              </ul>
+
+              <br />
+            </div>
+          </section>
+
+          <!-- Education -->
+
+          <section class="w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+              ></i>
+              Education
+            </h2>
+
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>KOSTA</b>
+              </h5>
+
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>
+                2026.07 - 2026.12
+              </h6>
+
+              <p>AI를 활용한 Java 기반 DevOps 개발자 양성과정</p>
+
+              <hr />
+            </div>
+
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>멋쟁이사자처럼</b>
+              </h5>
+
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>
+                2025.02 ~ 2025.08
+              </h6>
+
+              <p>웹 서비스 프로젝트 기반 프론트엔드 엔지니어 부트캠프</p>
+              <br />
+            </div>
+          </section>
+        </div>
+
+        <!-- End Grid -->
+      </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="w3-container w3-teal w3-center w3-margin-top">
+      <p>Find me on social media.</p>
+
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+      <p>
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">
+          w3.css
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
